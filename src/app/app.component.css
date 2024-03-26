@@ -1,0 +1,93 @@
+.app {
+  padding: 10px;
+}
+
+input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
+
+.row__cells {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.row__cells p {
+  white-space: nowrap;
+}
+
+.row__cells > div {
+  margin: 15px 10px;
+}
+
+.row__child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.row__child p {
+  white-space: nowrap;
+}
+
+.row__cell__tag--sm {
+  padding: 2px 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.row__cell__tag--md {
+  padding: 10px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.row__child > div {
+  margin: 15px 10px;
+}
+
+.row__cell__text--sm {
+  font-size: 0.6;
+  font-weight: bold;
+}
+
+.row__cell__text--md {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.row__cell__text--xl {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.row__cell__text--xxl {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.row__child__title {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.row__child__value {
+  font-weight: bold;
+}
+
+.row__actions__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.row__actions__button {
+  margin-top: 6px;
+}

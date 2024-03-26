@@ -1,0 +1,15 @@
+<div class="row" #row [class.row--selected]="isSelected">
+  <div class="row__content" #rowContent>
+      <ng-content select="[cells]"></ng-content>
+  </div>
+
+  <div class="row__actions" #actions>
+      <ng-content select="[actions]" />
+  </div>
+
+  <div class="row__child" #child>
+      <div class="row__child__content" #childContent>
+      <ng-content select="[child]"></ng-content>
+      </div>
+  </div>
+</div>
